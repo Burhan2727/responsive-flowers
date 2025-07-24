@@ -18,7 +18,7 @@
 
 .heading-style{
     font-family: var(--noto-font);
-    font-size: 3.125rem;
+    font-weight: 700;
     color: #000000;
 }
 .paragraph-style{
@@ -60,15 +60,48 @@ nav ul a{
 }
 
 /* navbar end */
+
+/* always fresh section start */
+.always-fresh-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 120px;
+}
+.always-fresh-left{
+    max-width: 570px;
+}
+.always-fresh-heading{
+    font-size: 4rem;
+}
+.always-fresh-heading span{
+    color: var(--primary-color);
+}
+.always-fresh-right img{
+    width: 100%;
+}
+/* always fresh section end */
 /* resposive mobile device */
 @media screen and (max-width: 576px) {
     .container{
         padding: 16px;
     }
+    .heading-style{
+    font-family: var(--noto-font);
+    font-size: 1.5rem;
+}
     .hide{
         display: none;
     }
     .nav-section{
         margin-bottom: 28px;
+    }
+    .always-fresh-section{
+        flex-direction: column-reverse;
+        margin-bottom: 58px;
+    }
+    .always-fresh-heading{
+        margin-top: 28px;
+        margin-bottom: 13px;
     }
 }
