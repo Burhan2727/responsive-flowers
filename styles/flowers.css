@@ -167,6 +167,39 @@ nav ul a {
 
 /* our plants section end */
 
+/* flower plants start */
+.flower-plants-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 150px;
+    margin-bottom: 133px;
+}
+.trusted-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 32%;
+    top: 100%;
+    top: 0;
+    
+}
+.flower-plants-left img{
+    width: 100%;
+}
+.flower-plants-right{
+    max-width: 540px;
+}
+.flower-plants-heading{
+    font-size: 3.125rem;
+    margin-bottom: 40px;
+}
+.flower-plants-right ul li{
+    margin-bottom: 20px;
+}
+/* flower plants end */
+
 
 /* resposive mobile device */
 @media screen and (max-width: 576px) {
@@ -219,5 +252,17 @@ nav ul a {
 
     .our-plants-section {
         margin-bottom: 40px;
+    }
+    .flower-plants-section{
+        flex-direction: column;
+    }
+    .flower-plants-heading{
+        margin-bottom: 16px;
+    }
+    .flower-plants-left{
+        margin-bottom: 18px;
+    }
+    .flower-plants-right ul{
+        padding: 0 20px;
     }
 }
