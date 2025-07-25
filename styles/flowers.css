@@ -362,7 +362,29 @@ nav ul a {
     background-color: #c44902;
 }
 
+
 /* join the colorful end */
+
+/* footer start */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.footer-left{
+    max-width: 340px;
+}
+footer a{
+    display: block;
+    color: var(--secondari-color);
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 26px;
+}
+.footer-right img{
+    margin-right: 26px;
+}
+/* footer end */
 
 /* resposive mobile device */
 @media screen and (max-width: 576px) {
@@ -473,5 +495,9 @@ nav ul a {
     }
     .join-container .input-form .join-btn{
         width: 38%;
+    }
+    .footer-section{
+        flex-direction: column;
+        padding-bottom: 50px;
     }
 }
