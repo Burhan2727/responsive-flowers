@@ -313,6 +313,57 @@ nav ul a {
 
 /* latest deals ssection end */
 
+/* join the colorful start */
+.join-container {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.join-heading {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.join-container .input-form {
+    position: absolute;
+    max-width: 830px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.join-container .input-form form input {
+    width: 65%;
+    padding: 15px 10px;
+    border: none;
+}
+
+.join-container .input-form .join-btn {
+    position: absolute;
+    border: none;
+    width: 30%;
+    padding: 14px 10px;
+    background-color: var(--primary-color);
+    font-family: var(--inter-font);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.join-container .input-form .join-btn:hover {
+    background-color: #c44902;
+}
+
+/* join the colorful end */
+
 /* resposive mobile device */
 @media screen and (max-width: 576px) {
     .container {
@@ -400,7 +451,8 @@ nav ul a {
         margin-bottom: 40px;
     }
 
-    .latest-deals-content-heading {
+    .latest-deals-content-heading,
+    .join-heading {
         font-size: 1.2rem;
     }
 
@@ -415,7 +467,11 @@ nav ul a {
     .Latest-deals-all-cards .Latest-deals-card:nth-child(3) .latest-deals-content-heading {
         font-size: 1.25rem;
     }
-    .latest-deals-section{
-    margin-bottom: 40px;
-}
+
+    .latest-deals-section {
+        margin-bottom: 40px;
+    }
+    .join-container .input-form .join-btn{
+        width: 38%;
+    }
 }
