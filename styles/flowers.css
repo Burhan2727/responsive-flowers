@@ -314,7 +314,7 @@ nav ul a {
 /* latest deals ssection end */
 
 /* join the colorful start */
-.join-container {
+.join-the-section {
     position: relative;
     width: 100%;
     min-height: 50vh;
@@ -323,28 +323,27 @@ nav ul a {
     background-position: center;
     background-size: cover;
 }
-
-.join-heading {
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 23px;
-}
-
-.join-container .input-form {
+.join-container{
+    width: 800px;
     position: absolute;
-    max-width: 830px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.join-container .input-form form input {
-    width: 65%;
+.join-heading {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.join-container form input {
+    width: 70%;
     padding: 15px 10px;
     border: none;
 }
 
-.join-container .input-form .join-btn {
+.join-container .join-btn {
     position: absolute;
     border: none;
     width: 30%;
@@ -358,7 +357,7 @@ nav ul a {
     font-weight: 600;
 }
 
-.join-container .input-form .join-btn:hover {
+.join-container .join-btn:hover {
     background-color: #c44902;
 }
 
@@ -493,8 +492,8 @@ footer a{
     .latest-deals-section {
         margin-bottom: 40px;
     }
-    .join-container .input-form .join-btn{
-        width: 38%;
+    .join-container{
+        width: 321px;
     }
     .footer-section{
         flex-direction: column;
